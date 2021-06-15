@@ -1,4 +1,18 @@
+const express = require('express');
+const cors = require('cors')
+const app = express();
+const port = 3000;
 
+app.use(cors())
 
+app.get('/', (req, res) => {
 
-console.log('snakewashewere')
+res.send('snekesandtrains');    
+
+});
+
+app.listen(port, () => {
+
+    console.log(`emaple on local port ${port}`)
+
+});
