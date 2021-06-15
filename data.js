@@ -1,4 +1,6 @@
-marbles = [ {
+marbles = [ 
+    
+    {
     id: 1,
     name: 'Crack Attack',
     image: 'crackattack.png',

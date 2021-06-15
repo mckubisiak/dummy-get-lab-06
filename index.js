@@ -8,7 +8,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
 
-res.send('snekesandtrains');    
+    res.json(marbles);    
 
 });
 
