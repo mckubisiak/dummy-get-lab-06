@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const app = express();
 const port = 3000;
+const marbles = require('./data')
 
 app.use(cors())
 
@@ -13,6 +14,6 @@ res.send('snekesandtrains');
 
 app.listen(port, () => {
 
-    console.log(`emaple on local port ${port}`)
+    console.log(`emaple on local port ${marbles}`)
 
 });

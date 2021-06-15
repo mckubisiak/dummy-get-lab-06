@@ -49,4 +49,4 @@ marbles = [ {
 }
 ]
 
-export default marbles;
+module.exports = marbles;
