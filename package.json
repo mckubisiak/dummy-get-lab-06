@@ -1,0 +1,28 @@
+{
+  "name": "dummy-get-lab-06",
+  "version": "1.0.0",
+  "description": "LAB-06A-DUMMY-GET.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckubisiak/dummy-get-lab-06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckubisiak/dummy-get-lab-06/issues"
+  },
+  "homepage": "https://github.com/mckubisiak/dummy-get-lab-06#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
+  }
+}
