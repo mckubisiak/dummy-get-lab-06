@@ -1,11 +1,13 @@
 {
+  
   "name": "dummy-get-lab-06",
   "version": "1.0.0",
   "description": "LAB-06A-DUMMY-GET.md",
   "main": "index.js",
   "scripts": {
   "test": "jest",
-  "test:watch": "jest --watch"
+  "test:watch": "jest --watch",
+  "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,4 +26,5 @@
     "jest": "^27.0.4",
     "supertest": "^6.1.3"
   }
+  
 }
