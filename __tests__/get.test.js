@@ -2,7 +2,7 @@ const  app  = require('../server')
 const supertest = require('supertest')
 const request = supertest(app)
 
-it('get all the marble data', async() => {
+it('get all the marbles data', async() => {
     marbles = [ 
     
         {
@@ -61,10 +61,10 @@ it('get all the marble data', async() => {
     expect(response.body).toEqual(marbles)
 })
 
-it('get all the marble data', async() => {
+it('get a singular marbles data', async() => {
 
-    const response = await request.get('/marble/:id')
-    const id = 2
+    const response = await request.get('/marble/2')
+    
     expect(response.status).toBe(200)
-    expect(response.body).toEqual(marbles)
+    expect(response.body.name).toEqual('Basic Blue')
 })
